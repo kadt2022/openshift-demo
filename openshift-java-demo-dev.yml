@@ -1,0 +1,5 @@
+demo:
+  message: "Bonjour depuis Spring Cloud Config Server"
+  environment: "dev"
+  source: "github"
+  application: "openshift-java-demo"
