@@ -1,3 +1,11 @@
+spring:
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          jwk-set-uri: ${TAKIBO_JWK_SET_URI:https://auth.tanzu.example.com/oauth2/jwks}
+
+
 demo:
   message: "Bonjour depuis Spring Cloud Config Server"
   environment: "dev"
